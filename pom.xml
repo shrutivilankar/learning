@@ -1,29 +1,10 @@
-
-<project>     
-    <modelVersion>4.0.0</modelVersion>   
-    
+<project>
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.shruti.learning</groupId>
-    <artifactId>fundamental-springboot-app</artifactId>
+    <artifactId>learning</artifactId>
     <version>0.0.1</version>
-
-    <properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
-    </properties>
- 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>  
-            <version>2.2.2.RELEASE</version>	         
-        </dependency>
-    </dependencies>
-    <build>
-        <plugins>
-            <plugin>                
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>               
-            </plugin>
-        </plugins>        
-    </build>
+    <packaging>pom</packaging>
+    <modules>
+        <module>fundamental-springboot-app</module>
+    </modules>
 </project>
