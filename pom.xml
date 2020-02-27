@@ -6,5 +6,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>fundamental-springboot-app</module>
+        <module>java-fundamentals</module>
     </modules>
 </project>
