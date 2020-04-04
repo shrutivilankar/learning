@@ -11,3 +11,23 @@
 * Our brain is also a good example of linked list. In the initial stages of learning something by heart, the natural process is to link one item to next. It's a subconscious act. Also, when we forget something and try to remember, than our brain follows association and tries to link one memory with another and so on and we finally recall the lost memory.
 E.g. Consider the thinking process when you placed your bike key somewhere and couldn't remember.
 * Another real life example could a be queue/line of persons standing for food in mess, insertion is done at one end and deletion at other. And these operations happen frequent. dynamic queues / stacks are efficiently implemented using linked lists.
+
+
+
+## Vector
+
+* is a List 
+* extends AbstractList
+* synchronized\ Thread safe
+* one can initialize vector with size and increment
+    1. new Vector(int size)
+    2. new Vector(int size, int increment) - defines with what number should the Vector increment its size during growth
+* Dynamic array - increases size by 100 %/ doubles during growth
+* traversal 
+    1. iterator, listIterator - fail-fast
+    2. Enumerations - not fail-fast
+* methods 
+    - all in List interface
+    - ensureCapacity (int minC) 
+    - trimToSize()
+
