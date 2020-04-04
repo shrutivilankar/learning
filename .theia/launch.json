@@ -3,11 +3,18 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-      {
-          "type": "java",
-          "name": "Debug (Launch) - Current File",
-          "request": "launch",
-          "mainClass": "learning/java-fundamentals/com.shruti.learning.BrowserHistoryLinkedList"
-      }
-  ]
+    {
+        "type": "java",
+        "name": "CodeLens (Launch) - TestVector",
+        "request": "launch",
+        "mainClass": "com.shruti.learning.TestVector",
+        "projectName": "java-fundamentals"
+    },
+    {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "learning/java-fundamentals/com.shruti.learning.BrowserHistoryLinkedList"
+    }
+]
 }
