@@ -5,6 +5,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CodeLens (Launch) - TestSortedSet",
+        "request": "launch",
+        "mainClass": "com.shruti.learning.TestSortedSet",
+        "projectName": "java-fundamentals"
+    },
+    {
+        "type": "java",
         "name": "CodeLens (Launch) - TestVector",
         "request": "launch",
         "mainClass": "com.shruti.learning.TestVector",

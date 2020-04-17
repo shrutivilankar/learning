@@ -1,11 +1,13 @@
 package com.shruti.learning;
 
 import java.util.Vector;
+import java.util.List;
 
 public class TestVector {
 
     public static void main(String[] args){
-        Vector v = new Vector();
+        Vector<String> v = new Vector<>();
+       // List<String> v = new Vector<>();
         v.add("v1");
         v.add("v2");
         v.add("v3");
