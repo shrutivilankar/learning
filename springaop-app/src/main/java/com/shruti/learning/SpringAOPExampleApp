@@ -1,0 +1,14 @@
+package com.shruti.learning;
+
+import org.springframework.boot.SpringBootApplication;
+import org.springframework.boot.autoconfigure.SpringApplication;
+
+
+@SpringBootApplication
+public class SpringAOPExampleApp{
+
+    public static void main(String[] args){
+        SpringApplication.run(args);
+    }
+
+}
